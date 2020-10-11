@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/sign-up.css">
+    <script type="text/javascript"  src="js/sign-up.js"></script>
+
+</head>
+<body>
+    <header>
+    <div class="nav-bar">
+		<div class="nav-link">
+			<ul>
+				<a href="home.html"><li class="image"><img src="img/logo4.png"></li></a>
+				<a href="home.html"><li id="home">Home</li></a>
+				<a href="service.html"><li id="service">Service</li></a>
+				<a href="contact-us.html"><li id="contact-us">Contact Us</li></a>
+			</ul>
+	</div>
+   </div>
+</header>
+    <br><br>
+      <div class="intro-image">
+		<img src="img/img2.png" alt="sandip">
+	</div>
+    <form >
+        <fieldset>
+
+        <center> <h1><b>Sign Up      </b></h1> </center>
+        <!-- Name -->
+
+        <label ><input type="text" name="name" placeholder=" First Name"  required></label>
+        <label ><input type="text" name="last name" placeholder="Last Name" id="ln" required></label>
+        <br><br>
+        
+        
+        <!-- USERNAME -->
+
+        <label > <input type="text" id="username" name="username" placeholder="Username" onchange="validateUsername()" ></label>
+        
+        <!-- EMAIL -->
+        <label > <input type="email" id="email" name="email" placeholder="Email" onchange="valildatemail()"></label>
+        
+        <h4 id="usernamefield"></h4>
+        <h4 id="Email"></h4> 
+      
+
+        <!-- PASSWORD -->
+
+
+        <label > <input type="password" id="pass1" name="password" placeholder="Password" onchange="passlength()"></label>
+        <label > <input type="password" id="pass2" name="password" placeholder="Re-enter Password" onchange="validatePass()"></label>
+         <!-- <h4 id="erroralert"></h4>  -->
+        <br><br>
+
+
+        <!-- MAILSUBSCRIBE -->
+
+        <label><b id="wnp">Want new updates??? </b><input type="checkbox" name="mailsubscribe" 
+            
+            id="one" onchange="mailSubscribe()"  value="yes"></label>
+            <br><br>
+            <div id="two">
+                <label > <input type="email" id="three" placeholder="Email" name="subscribeemail"></label>
+            </div>
+            <br>
+            <br>
+        <input id="submit" type="submit" name="submit">
+        </fieldset>
+        
+    </form>
+  
+
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    background-color:#42455a;;
+    margin: 0%;
+    padding: 0%;
+    background-position: center;
+    background-size: cover;
+    color: green;
+    position: absolute;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+header {
+	width: 100%;
+	height:100%;
+	background: #42455a;
+}
+
+
+.nav-link ul {
+	display: inline-flex;
+    margin:20px; 
+    }
+    
+.nav-link ul a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}    
+
+.nav-link ul  li {
+	list-style: none;
+	margin: 0px 20px;
+	padding-top: 9px;
+	color: white;
+	cursor: pointer;
+}
+
+.nav-link img {
+	width: 110px;
+	margin-top: -45px;
+	margin-right: 20px;
+
+}
+#home:hover {
+	color: #19dafa;
+}
+#service:hover {
+	color: #19dafa;
+}
+#product:hover {
+	color:#19dafa;
+}
+.intro-image {
+	width: 50%;
+	float: right;
+	
+}
+.intro-image img {
+    width: 76%;
+    padding-left: 90px;
+    padding-right: 20px;
+
+}
+form{
+    width: 450px;
+    height: 460px;
+    margin: 1% auto;
+    background:#42455a;
+    padding-right: 350px; 
+    color: #19dafa; 
+}
+fieldset{
+    border-radius: 5mm;
+    border-color: #19dafa;;
+    
+}
+fieldset:hover{
+    box-shadow: 0px 0px 5px yellow;
+}
+
+#ln{
+    margin-left: 20px;
+}
+#email{
+    margin-left: 20px;
+}
+
+#pass2{
+    margin-left: 20px;
+}
+
+#submit{
+border-radius: 5px;
+ 
+}
+
+#submit:hover {
+    box-shadow:0px 0px 5px yellow;
+}
+
+center h1 b:hover{
+    color: yellow;
+
+}
+
+#wnp:hover {
+    color: yellow;
+}

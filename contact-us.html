@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BloodEaster</title>
+	<link rel="stylesheet" type="text/css" href="css/contact-us.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script type="text/javascript" src="js/contact-us.js"></script>
+</head>
+<body>
+	<header>
+
+	<div class="nav-bar">
+		<div class="nav-link">
+			<ul>
+				<a href="home.html"><li class="image"><img src="img/logo4.png"></li></a>
+				<a href="home.html"><li id="home">Home</li></a>
+				<a href="service.html"><li id="service">Service</li></a>
+				<a href="contact-us.html"><li id="contact-us" class="active">Contact Us</li></a>
+				<li><a href="sign-up.html" id="sign-up"><span>Sign Up</span></a></li>
+			</ul>
+    </div>
+    </div>
+    </header>
+    <main>
+        <h1>CONTACT US</h1>
+        <hr>
+        <h2>We love to help you</h2>
+       
+        <div class="container">
+         <form >
+          <div class="col-75">
+          <input class="sa" type="text" id="username" name="username" placeholder="Username" onchange="validateUsername()"/>
+          </div> 
+          <h3 id="usernamefield"></h3>
+         <div class="col-75">
+         <input class="sa" type="email" id="email" name="email" placeholder="Email" onchange="validateemail()"/>
+         </div>
+        
+      
+         <div class="col-75">
+         <select class="sa" id="country" name="country">
+          <option value="australia">Any</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">Nepal</option>
+          <option value="usa">China</option>
+          <option value="usa">Japan</option>
+          <option value="usa">Others.</option>
+          </select>
+          </div>
+         <div class="col-75">
+         <textarea class="sa" id="subject" name="subject" placeholder="Any enquires" onchange="validatesubject()" style="height:150px"></textarea>
+         </div>
+         <h4 id="subjectfield"></h4>
+         <div class="row">
+         <input id="submit" type="submit" value="Submit">
+         </div>
+         </form>
+         </div>
+         </main>
+         <div class="social-icon">
+			<ul>
+				<li><a id="fb" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+				<li><a id="twitter" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+				<li><a id="insta" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+
+</body>
+</html>
